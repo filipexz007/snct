@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>placa de video Nvidia</title>
+    
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .fakeimg2{
+            width: 100%;
+            height: 100%;
+        }
+        /* ESTILIZAR O CORPO */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* TITULO DO CABEÇALHO/LOGOTIPO */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #FF2978;;
+            color: #180F4A ;
+            font-family: 'Lobster', cursive;
+        }
+
+        /* ESTILIZAR A BARRA DE NAVEGAÇÃO SUPERIOR  */
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        /* Style the navigation bar links 
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        */
+
+        /* Change color on hover 
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        */
+
+        /* CONTAINER DA COLUNA */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* CRIAR DUAS COLUNAS DESIGUAIS QUE FICAM UMA AO LADO DA OUTRA  */
+        /* BARRA LATERAL/COLUNA ESQUERDA */
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* COLUNA PRINCIPAL */
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* IMAGEM FALSA */
+        .fakeimg3 {
+            /*background-color: #aaa;*/
+            width: 100%;
+            background-color: white;
+        }
+        .fakeimg {
+            /*background-color: #aaa;*/
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+        }
+        /* RODAPÉ */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background:  #180F4A;
+            color: white;
+            font-family: 'Lobster', cursive;
+        }
+
+        /* LAYOUT RESPONSIVO--QUANDO A TELA TIVER MENOS DE 700PX DE LARGURA, VAI EMPILHAR
+         AS DUAS COLUNAS UMA SOBRE A OUTRA EM VEZ DE UMA AO LADO DA OUTRA*/
+
+        @media screen and (max-width: 700px) {
+
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <div class="header">
+
+        <h1>Placas de Vídeo Nvidia</h1>
+      
+    </div>
+
+    <!-- Navigation Bar -->
+  <!--  <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+-->
+
+    <!-- ESSA É A GRADE FLEXÍVEL (CONTRÚDO) -->
+    <div class="row">
+        <div class="side">
+            <div class="fakeimg3" style="height:200px;">
+               <img  src="/placa4090.png" class="fakeimg2">
+            </div>
+           <p class="p">GeForce RTX 4090</p> 
+            <h3>Especificações</h3>
+            <p>Resolução de 3840x2160, configurações de jogo mais altas, modo de desempenho de super resolução DLSS</p>
+
+            <div class="fakeimg" style="height:60px;">Thermal and Power Specs: Maximum GPU Temperature (in C) 90 Graphics Card Power (W)	450 W Minimum System Power (W) (4) 850 W
+
+               
+            </div><br>
+            <div class="fakeimg" style="height:60px;"> GPU Engine Specs: NVIDIA CUDA® Cores	16384 Boost Clock (GHz)	2.52Base Clock (GHz) 2.23 
+
+                
+
+            </div><br>
+            <div class="fakeimg" style="height:60px;"> Memory Specs:	Standard Memory Config	24 GB GDDR6X
+                Memory Interface Width	384-bit
+
+                
+                
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Placa de video</h2>
+        
+          <!-- <div class="fakeimg" style="height:200px;">Imagem</div> -->
+            <p>A NVIDIA® GeForce RTX® 4090 é a GPU GeForce definitiva. Ele traz um enorme salto em desempenho, eficiência e gráficos com inteligência artificial.
+                 Experimente jogos de alto desempenho, mundos virtuais incrivelmente detalhados, produtividade sem precedentes e novas maneiras de criar. 
+                Equipada com a arquitetura NVIDIA Ada Lovelace, ela vem com 24 GB de memória G6X para oferecer a melhor experiência para jogadores e criadores.</p>
+           <!-- <div class="fakeimg" style="height:200px;">Imagem</div> -->
+            <p>Technology Support:	Ray Tracing Cores	3rd Generation
+                Tensor Cores	4th Generation
+                NVIDIA Architecture	Ada Lovelace
+                NVIDIA DLSS	3
+                NVIDIA Reflex	Yes
+                NVIDIA Broadcast	Yes
+                PCI Express Gen 4	Yes
+                Resizable BAR	Yes
+                NVIDIA® GeForce Experience™	Yes
+                NVIDIA Ansel	Yes
+                NVIDIA FreeStyle	Yes
+                NVIDIA ShadowPlay	Yes
+                NVIDIA Highlights	Yes
+                NVIDIA G-SYNC®	Yes
+                Game Ready Drivers	Yes
+                NVIDIA Studio Drivers	Yes
+                NVIDIA Omniverse	Yes
+                Microsoft DirectX® 12 Ultimate	Yes
+                NVIDIA GPU Boost™	Yes
+                NVIDIA NVLink™ (SLI-Ready)	No
+                Vulkan RT API, OpenGL 4.6	Yes
+                NVIDIA Encoder (NVENC)	2x 8th Generation
+                NVIDIA Decoder (NVDEC)	5th Generation
+                AV1 Encode	Yes
+                AV1 Decode	Yes
+                CUDA Capability	8.9
+                VR Ready	Yes</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Obrigado!!!</h2>
+    </div>
+
+</body>
+
+</html>
+
